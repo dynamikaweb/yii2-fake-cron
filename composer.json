@@ -1,0 +1,38 @@
+{
+    "name": "dynamikaweb/yii2-fake-cronjob",
+    "description": "",
+    "type": "yii2-extension",
+    "keywords": [
+        "dynamika",
+        "yii",
+        "yii2",
+        "cronjob",
+        "Schedule"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "RodrigoDornelles",
+            "email": "rodrigo@dornelles.me",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/dynamikaweb/yii2-fake-cronjob/issues",
+        "source": "http://github.com/dynamikaweb/yii2-fake-cronjob"
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "*"
+    },
+    "suggest": {
+        "omnilight/yii2-scheduling": "to manage cronjobs"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "autoload": {
+        "psr-4": {
+            "dynamikaweb\\fakecronjob\\": "src"
+        }
+    }
+}
