@@ -23,3 +23,33 @@ or add
 ```
 
 to the `require` section of your `composer.json` file.
+
+And append
+
+```PHP
+[
+    'components' => [
+        // this plugin
+        'cronjob' => [
+            'class' => 'dynamikaweb\fakecronjob\FakeCronJob'
+        ],
+        // suggested
+        'schedule' => [
+            'class' => 'omnilight\scheduling\Schedule'
+        ],
+        ...
+    ]
+]
+to install application component of your `config/main.php` file.
+
+```
+
+Usage
+-----
+
+```PHP
+Yii::$app->schedule->command('foo')->daily()->description('mycommand');
+Yii::$app->cronjob->update('mycommand');
+```
+
+see more _schedule_ examples in <https://github.com/omnilight/yii2-scheduling>
