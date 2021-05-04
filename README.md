@@ -40,9 +40,9 @@ And append
         ...
     ]
 ]
-to install application component of your `config/main.php` file.
-
 ```
+
+to install application component of your `config/main.php` file.
 
 Usage
 -----
