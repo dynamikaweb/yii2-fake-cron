@@ -14,12 +14,14 @@ Either run
 
 ```SHELL
 $ composer require dynamikaweb/yii2-fake-cronjob "*"
+$ composer require omnilight/yii2-scheduling "*"
 ```
 
 or add
 
 ```JSON
-"dynamikaweb/yii2-fake-cronjob": "*"
+"dynamikaweb/yii2-fake-cronjob": "*",
+"omnilight/yii2-scheduling": "*"
 ```
 
 to the `require` section of your `composer.json` file.
